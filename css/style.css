@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Kalam', cursive;
+}
+
+html,body{
+    height: 100%;
+}
+
+/* ******Framework******* */
+
+section.container{
+    width: 100%;
+}
+
+.center{
+    max-width: 1900px;
+    margin: 0 auto;
+}
+
+.orange{
+    background-color: #eb9526;
+}
+
+/* *******Estilo Própio********* */
+
+header{
+    padding: 0 2%;
+    height: 180px;
+}
+
+.logo-message{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.logo-message img{
+    width: 15em;
+    height: 11em;
+    
+}
+
+.logo-message h2{
+    font-size: 27px;
+    font-weight: 700;
+    font-family: 'Kalam', cursive;
+}
+
+.logo-message form{
+    background-color: grey;
+    border-radius: 25px;
+    position: relative;
+}
+
+.logo-message form input{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    padding: 8px 10px 8px 10px;
+}
+
+.logo-message button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 20px;
+    
+}
+
+.logo-message button i{
+    color: black;
+}
+
+.logo-message button i:hover{
+    color:#eb9526;
+}
