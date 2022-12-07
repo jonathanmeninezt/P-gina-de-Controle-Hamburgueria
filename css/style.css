@@ -88,3 +88,63 @@ header{
 .logo-message button i:hover{
     color:#eb9526;
 }
+
+section.w100{
+    width: 100%;
+    height: 1000px;
+    background-image: url('/img/batata2.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container-boxone{
+    width: 30%;
+    height: 75%;
+    margin-left: 70px;
+    background-color:burlywood;
+    border-radius: 10px;
+}
+
+.container-boxtwo{
+    width: 50%;
+    height: 70%;
+    margin-left: 70px;
+    border-radius: 18px;
+    background-color: beige;
+}
+
+.box-one{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box-one form input{
+    width: 80%;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 17px;
+    text-align: center;
+}
+
+.box-two{
+    max-width: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    
+    
+    
+    
+}
+
+.box-two input[type=image]{
+    width: 15em;
+    height: 12em;
+    margin-top: 40px;
+    margin-left: 80%;
+    
+   
+}
