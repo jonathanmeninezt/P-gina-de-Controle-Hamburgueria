@@ -145,6 +145,25 @@ section.w100{
     height: 12em;
     margin-top: 40px;
     margin-left: 80%;
-    
-   
+       
+}
+
+.hamburguer-button{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 320px;
+}
+
+.hamburguer-button input[type=text]{
+    width: 300px;
+    height: 30px;
+    background-color: orange;
+}
+
+.hamburguer-button input[type=submit]{
+    width: 200px;
+    height: 35px;
+    background-color: black;
+    color: orange;
 }
