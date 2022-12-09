@@ -153,6 +153,7 @@ section.w100{
     justify-content: center;
     position: relative;
     left: 320px;
+    background-color: gray;
 }
 
 .hamburguer-button input[type=text]{
@@ -166,4 +167,8 @@ section.w100{
     height: 35px;
     background-color: black;
     color: orange;
+}
+
+.hamburguer-button input[type=submit]:hover{
+   color: white;
 }
