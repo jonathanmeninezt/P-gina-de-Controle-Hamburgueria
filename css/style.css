@@ -134,10 +134,7 @@ section.w100{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
-    
-    
-    
-    
+   
 }
 
 .box-two input[type=image]{
@@ -145,8 +142,17 @@ section.w100{
     height: 12em;
     margin-top: 40px;
     margin-left: 80%;
-       
+    transition: 700ms;
+    opacity: 1;
+    
+           
 }
+
+.box-two input[type=image]:hover{
+    transform: rotate(2deg);
+    opacity: 0.9;
+}
+
 
 .hamburguer-button{
     display: flex;
@@ -162,13 +168,23 @@ section.w100{
     background-color: orange;
 }
 
-.hamburguer-button input[type=submit]{
-    width: 200px;
-    height: 35px;
-    background-color: black;
-    color: orange;
+input.input-text{
+    width:270px;
+    height: 34px;
+    margin-top: 30px;
+    
 }
 
-.hamburguer-button input[type=submit]:hover{
-   color: white;
+input[type=submit]{
+    width: 80px;
+    height: 45px;
+    margin-top: 27px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
 }
+
+input[type=submit]:hover{
+   color: orange;
+}
+
