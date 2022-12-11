@@ -45,6 +45,15 @@ header{
     
 }
 
+.logo-message i{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.logo-message i:hover{
+    color: red;
+}
+
 .logo-message h2{
     font-size: 27px;
     font-weight: 700;
@@ -141,7 +150,7 @@ section.w100{
     width: 15em;
     height: 12em;
     margin-top: 40px;
-    margin-left: 80%;
+    margin-left: 70%;
     transition: 700ms;
     opacity: 1;
     
@@ -169,9 +178,12 @@ section.w100{
 }
 
 input.input-text{
-    width:270px;
+    width:220px;
     height: 34px;
+    font-size: 18px;
+    font-weight: 500;
     margin-top: 30px;
+    text-align: center;
     
 }
 
@@ -179,12 +191,38 @@ input[type=submit]{
     width: 80px;
     height: 45px;
     margin-top: 27px;
+    font-weight: 600;
     background-color: red;
     color: white;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 input[type=submit]:hover{
    color: orange;
 }
 
+@media screen and (max-width:1726px){
+    .container-boxtwo{
+        width: 60%;
+        height: 70%;
+       
+    }
+    .box-two input[type=image]{
+        margin-left: 60%;
+        
+    }
+}
+
+@media screen and (max-width:1418px){
+    .container-boxtwo{
+        width: 60%;
+        height: 70%;
+        margin-right: 20px;
+       
+    }
+    .box-two input[type=image]{
+        margin-left: 40%;
+        
+    }
+}

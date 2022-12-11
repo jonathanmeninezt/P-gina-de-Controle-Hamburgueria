@@ -4,21 +4,21 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Projeto 4</title>
+        <title>Controle Hamburgueria</title>
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/0537ae62fc.js" crossorigin="anonymous"></script>
         <link href="css/style.css" rel="stylesheet">
-        <script src="js/function.js"></script>
+        
     </head>
     <body>
         <section class="container orange">
             <header>
                 <div class="center">
                     <div class="logo-message">
-                        <h2>Olá, Boa noite! Bem vindo(a) a Hamburgeuria</h2>
+                        <h2>Olá, Boa noite! Bem vindo(a) a Hamburgueria</h2>
                         <img src="img/burguer.png">
-                        <i class="fa-solid fa-bell" style="font-size:24px;cursor: pointer;"></i>
+                        <i class="fa-solid fa-bell"></i>
                         <form>
                             <input type="text" placeholder="Pesquisar...">
                             <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
@@ -33,19 +33,19 @@
            <div class="box-one">
             <label style="font-size: 24px; font-weight:800;text-decoration: underline; color: brown;">Estoque</label> 
             <form>
-             <input type="text" value="Pão com gergilim"> <input type="number" value="0" style="width:10%;background-color:#eb9526;"><br>
-             <input type="text" value="Rodela de cebola"> <input type="number" value="0" style="width:10%;background-color:#eb9526;"><br>
-             <input type="text" value="Fatia queijo cheeder"> <input type="number" value="0" style="width:10%;background-color:#eb9526;"><br>
-             <input type="text" value="Fatia queijo mussarela"> <input type="number" value="0" style="width:10%;background-color:#eb9526;"><br>
-             <input type="text" value="Fatia de bacon"> <input type="number" value="0" style="width:10%;background-color:#eb9526;"><br>
-             <input type="text" value="Folha de alface"> <input type="number" value="0" style="width:10%;background-color:#eb9526;"><br>
-             <input type="text" value="Fatia de tomate"> <input type="number" value="0" style="width:10%;background-color:#eb9526;"><br>
-             <input type="text" value="Fatia de picles"> <input type="number" value="0" style="width:10%;background-color:#eb9526;"><br>
-             <input type="text" value="Ovo"> <input type="number" value="0" style="width:10%;background-color:#eb9526;"><br>
-             <input type="text" value="Porção de molho 30g"> <input type="number" value="0" style="width:10%;background-color:#eb9526;"><br>
-             <input type="text" value="Blend de picanha 150g"> <input type="number" value="0" style="width:10%;background-color:#eb9526;"><br>
-             <input type="text" value="Blende de costela 150g"> <input type="number" value="0" style="width:10%;background-color:#eb9526;"><br>
-             <input type="text" value="Batata frita 200g"> <input type="number" value="0" style="width:10%;background-color:#eb9526;"><br>
+             <input type="text" value="Pão com gergilim"> <input type="number" value="6" id="pao" style="width:10%;background-color:#eb9526;"><br>
+             <input type="text" value="Rodela de cebola"> <input type="number" value="5" style="width:10%;background-color:#eb9526;"><br>
+             <input type="text" value="Fatia queijo cheeder"> <input type="number" value="6" style="width:10%;background-color:#eb9526;"><br>
+             <input type="text" value="Fatia queijo mussarela"> <input type="number" value="4" style="width:10%;background-color:#eb9526;"><br>
+             <input type="text" value="Fatia de bacon"> <input type="number" value="8" style="width:10%;background-color:#eb9526;"><br>
+             <input type="text" value="Folha de alface"> <input type="number" value="7" style="width:10%;background-color:#eb9526;"><br>
+             <input type="text" value="Fatia de tomate"> <input type="number" value="4" style="width:10%;background-color:#eb9526;"><br>
+             <input type="text" value="Fatia de picles"> <input type="number" value="5" style="width:10%;background-color:#eb9526;"><br>
+             <input type="text" value="Ovo"> <input type="number" value="6" style="width:10%;background-color:#eb9526;"><br>
+             <input type="text" value="Porção de molho 30g"> <input type="number" value="6" style="width:10%;background-color:#eb9526;"><br>
+             <input type="text" value="Blend de picanha 150g"> <input type="number" value="8" style="width:10%;background-color:#eb9526;"><br>
+             <input type="text" value="Blende de costela 150g"> <input type="number" value="5" style="width:10%;background-color:#eb9526;"><br>
+             <input type="text" value="Batata frita 200g"> <input type="number" value="4" style="width:10%;background-color:#eb9526;"><br>
             </form>
            </div><!--box-one-->
           </div><!--container-boxone-->
@@ -53,20 +53,21 @@
           <div class="container-boxtwo">
           <label style="font-size: 24px; font-weight:800;text-decoration: underline; color: brown;margin-left:50%;">Pedidos</label> 
             <div class="box-two">
-             <input type="image" src="/img/bacon.png"></input>
-             <input type="image" src="/img/costela.png"></input>
-             <input type="image" src="/img/x-duplo.png"></input>
-             <input type="image" src="/img/costela-queijo.png"></input>
-             <input type="image" src="/img/x-chedar.png"></input>
-             <input type="image" src="/img/x-simples.png"></input>
-             <input type="image" src="/img/x-combo.png"></input>
-             <input type="image" src="/img/combo-duplo.png"></input>
-             <input type="image" src="/img/combo1.png"></input>
-             <input class="input-text" type="text" placeholder="item selecionado">
-            <input type="submit" name="acao" value="Enviar">
+             <input onclick="XBacon()" id="XBacon" type="image" src="/img/bacon.png"></input>
+             <input onclick="XCostela()" id="xCostela" type="image" src="/img/costela.png"></input>
+             <input onclick="XDuploSimples()" id="xDuploSimples" type="image" src="/img/x-duplo.png"></input>
+             <input onclick="XCostelaQueijo()" id="CostelaQueijo" type="image" src="/img/costela-queijo.png"></input>
+             <input onclick="XCheddar()" id="XCheddar" type="image" src="/img/x-chedar.png"></input>
+             <input onclick="XSimples()" id="XSimples" type="image" src="/img/x-simples.png"></input>
+             <input onclick="ComboX()" id="ComboX" type="image" src="/img/x-combo.png"></input>
+             <input onclick="ComboDuplo()" id="ComboDuplo" type="image" src="/img/combo-duplo.png"></input>
+             <input onclick="ComboTop()" id="ComboTop" type="image" src="/img/combo1.png"></input>
+
+             <input id="boxText" class="input-text" type="text" name="box_pedido" placeholder="item selecionado">
+            <input type="submit" name="acao" id="send"  value="Enviar">
             </div><!--box-two-->
           </div><!--container-boxtwo-->
         
-       
+          <script src="js/function.js"></script> 
     </body>
 </html>
