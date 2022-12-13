@@ -80,4 +80,11 @@ btn.addEventListener("click", function(e){
 });
 
 
+//*************** */
+
+
+var nome = prompt("Olá, qual é o seu nome?");
+
+alert("Bem vindo " + nome + "!");J
+
 
