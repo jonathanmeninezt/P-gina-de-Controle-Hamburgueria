@@ -1,17 +1,25 @@
 //Mensagem automática Bom dia, Boa tarde e Boa noite
 
+var nome = prompt("Olá, qual é o seu nome?");
+
+alert("Vamos fazer pedidos " + nome + "!");
+
+
+
+
+
 var el = document.querySelector('h2');
 var agora = new Date();
 var hora = agora.getHours();
 
 if (hora < 12){
-    el.innerHTML = 'Olá, Bom dia! Bem vindo(a) a Hamburgueria';
+    el.innerHTML = ("Olá, Bom dia " + nome + "!" + " Bem vindo(a)");
 
 }else if (hora < 18){
-    el.innerHTML = 'Olá, Boa tarde! Bem vindo(a) a Hamburgueria';
+    el.innerHTML = ("Olá, Boa tarde " + nome + "!" + " Bem vindo(a)");
 
 }else{
-    el.innerHTML = 'Olá, Boa noite! Bem vindo(a) a Hamburgueria';
+    el.innerHTML = ("Olá, Boa noite " + nome + "!" + " Bem vindo(a)");
 }
 
 //******************************* */
@@ -77,14 +85,12 @@ btn.addEventListener("click", function(e){
     const boxText = document.querySelector("#boxText");
     const value = boxText.value;
     console.log(value);
+
+    if (value == "X-Bacon"){
+        alert('Feito');
+    }
 });
 
 
-//*************** */
-
-
-var nome = prompt("Olá, qual é o seu nome?");
-
-alert("Bem vindo " + nome + "!");J
-
+//**********Pedido enviado p/ descontar na dispensa*********Jonathan******/
 
